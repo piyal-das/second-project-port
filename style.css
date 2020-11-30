@@ -1,18 +1,82 @@
+body {
+    font-family: sans-serif;
+    color: #777777;
+    line-height: 26px;
+}
+
+h1{
+    font-size:40px
+}
 .name-highlight{
     color:#d8207c;
     font-size: 40px;
 }
 .half-width{
+    width: 50%;
     float: left;
 }
-.top-banner{
-    height: 500px;
-
+.side-img{
+    width: 50%;
+    padding-left: 25%;
 }
 .link-button{
     color: #fff;
-    padding: 10px 20px; 
+    padding: 13px 42px; 
     background-color: #d8207c;
     text-decoration: none;
     border-radius: 5px;
+}
+.container{
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 18%;
+    background-image: url(header-bg.png);
+    display: inline-block;
+}
+.middle-part{
+    background-image: url(biography-bg.png);
+    padding-top: 100px;
+    height: 600px;
+}
+.work-part img{
+    width: 25%;
+    margin-left: 100px;
+    
+}
+.Work{
+    color: black;
+    text-align: center;
+}
+.last-part{
+    height: 550px;
+    background-image: url(latest-work-bg.png)
+}
+.footer-part{
+    height: 500px;
+    background-image: url(footer-bg.png)
+    margin-bottom: 150px;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-button{
+    background-color: #d8207c;
+    text-decoration: none;
+    Padding: 10px 50px;
+}
+button{
+    padding : 40px 200px;
+    background-color: #d8207c;
+    border: none;
+    border-radius: 10px;
+}
+.btn-txt{
+    color: #fff;
+    text-decoration: none;
+}
+footer{
+    padding-top: 150px
+}
+footer p {
+    text-align: center;
 }

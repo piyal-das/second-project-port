@@ -53,7 +53,7 @@ h1{
 }
 .footer-part{
     height: 500px;
-    background-image: url(footer-bg.png)
+    background-image: url(footer-bg.png);
     margin-bottom: 150px;
 }
 .footer-text{
